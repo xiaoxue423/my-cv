@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover" />
+    <title>我的简历</title>
+    <link rel="stylesheet" href="style.css">
+    <style media="print">
+        body {
+            margin: 0;
+        }
+        
+        .page2 {
+            page-break-before: always;
+        }
+    </style>
+
+    <style media="print">
+        #图的id或其他选择器 {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <section class="bio">
+            <h1>胡雪</h1>
+            <!-- <img src="https://s1.ax1x.com/2020/07/28/aEDeYQ.jpg" alt="" width="100" height="100" /> -->
+            <!-- <p>
+                女 | 22岁 | 前端开发工程师 | 成都
+            </p> -->
+            <p>
+                女 | 23岁 | 前端开发工程师 
+            </p>
+            <p>
+                手机：13688152145 | 微信：shuang20170607 | 邮箱：xiaoxuexue19980423@163.com
+            </p>
+        </section>
+        <section class="skills">
+            <h2>
+                技能
+                <hr/>
+            </h2>
+            <div class="wrapper">
+                <div id="skills"></div>
+                <ul>
+                    <li>熟悉HTML、CSS、JavaScript等语言，进行可读性高的W3C规范代码编程</li>
+                    <li>熟悉HTML5、CSS3新特性、<strong>新特性</strong>，并进行<strong>响应式开发</strong></li>
+                    <li>熟悉页面制作技巧，熟悉传统布局、<strong>Flex布局</strong>、Grid布局、移动端适配等</li>
+                    <li>
+                        熟悉<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie、Session 等
+                    </li>
+                    <li>熟悉<strong>jQuery</strong>、<strong>Bootstrap</strong>框架的使用，并有过相关实际开发经验</li>
+                    <li>
+                        熟练掌握Vue全家桶的使用，包括<strong>Vue-cli、VueRouter、Vuex</strong>及相关流行库的使用，理解其重要概念
+                    </li>
+                    <!--        <li>-->
+                    <!--          熟练掌握 React全家桶的使用，包括-->
+                    <!--          create-react-app、ReactRouter、Redux 等-->
+                    <!--        </li>-->
+                    <li>熟悉可视化工具<strong>echarts</strong></li>
+                    <li>了解<strong>TypeScript</strong>，了解<strong>node.js</strong>等</li>
+                    <li>
+                        熟悉 <strong>git</strong> 的使用，了解前端构建工具<strong>Webpack</strong> 的配置和优化
+                    </li>
+                    
+                    <li>熟悉计算机网络，了解<strong>TCP/IP</strong>、<strong>HTTP</strong></li>
+                    <li>了解计算机操作系统基本原理，数据结构基础算法</li>
+                    <li>性格开朗，学习及语言表达能力强，善于与人沟通、交流。</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div >
+                <h2 style="color:black">
+                    实习经历
+                    <hr/>
+                </h2>
+                <p class="job">
+                    <span>上海昌硕科技有限公司   &nbsp;&nbsp;开发四科 </span>
+                    <span><time>2020年11月</time>~<time>至今</time></span>
+                </p>
+            </div>
+      
+            <br/>
+            <ul>
+                <li>
+                    <header>
+                        <h3>需求管理系统</h3>
+                    </header>
+                    <p>
+                        由于公司内部工作上的需求  都是通过邮件和电话来交接的，每天都要接受很多的邮件，非常繁琐、低效。<br/>
+                        所以部门领导要求开发一个需求系统以供公司内部人员使用，可以在此系统上发布需求任务给相关开发部门处理。
+                    </p>
+                    <p>由我<strong>独立设计与开发</strong>前端部分，基于Vue2、VueRouter、Vuex、JS、CSS3、HTML5等</p>
+                </li>
+            </ul>
+        </section>
+        
+        <section class="projects">
+            <h2 style="color:black">
+                项目经历
+                <hr/>
+            </h2>
+
+            <ol>
+                <!-- <li>
+                    <header>
+                        <h3>极简PPT制作</h3>
+                        <span>
+                <a href="https://github.com/ywszm/quick-note-test" target="_blank">源码</a>
+                <a href="https://www.geekai.net.cn/Quick-Note-website/" target="_blank">演示</a>
+              </span>
+                    </header>
+                    <p>
+                        这个在线PPT制作平台的特点是<strong>简洁高效</strong>，为了满足自己的日常需求而开发。
+                    </p>
+                    <p>
+                        使用 <strong>原生Javascript</strong>实现一款简洁高效的在线ppt制作平台。
+                    </p>
+                    <p>
+                        使用该工具用户可使用markdown在数分钟完成ppt制作，支持
+                        <strong>内容编辑</strong>、<strong>主题切换</strong>、<strong>特效切换</strong>、<strong>下载</strong>、<strong>演讲者</strong>模式等功能。
+                    </p>
+                </li> -->
+
+                <li>
+                    <header>
+                        <h3>天天记账</h3>
+                        <span>
+                            <a href="" target="_blank">源码</a>
+                            <a href="https://xiaoxue423.github.io/money-website/#/money" target="_blank">演示</a>
+                        </span>
+                    </header>
+                    <p>
+                        天天记账是一款极简的<strong>记账应用</strong>，也是一款基于Vue2、VueRouter、Vuex、TypeScript的单页面应用。
+                        <br/>
+                        由本人独立设计及实现，期间遇到了很多Webpack和Typescript方面的问题和Typescript、Vue2.0结合不友好出现的等等问题。
+                        <br/>
+                        源代码几乎完全用Typescript实现，用到了<strong>装饰器语法</strong>，类语法，is关键字，赋值断言。
+                    </p>
+                
+                </li>
+
+                <li>
+                    <header>
+                        <h3>哒哒导航</h3>
+                        <span>
+                <a href="https://gitee.com/xiaoxue0423/dddaohang/blob/master/main.js" target="_blank">源码</a>
+                <a href="http://xiaoxue0423.gitee.io/dddaohang" target="_blank">演示</a>
+              </span>
+                    </header>
+                    <p>
+                        根据平时的学习需要，写的一个<strong>前端导航网站</strong>， 包括了众多平时用到的学习网站，用户可
+                        <strong>自定义添加</strong>想要的网站，达到快速访问网站的效果
+                    </p>
+
+                    <p>
+                        该项目使用了<strong>jQuery、媒体查询</strong>等知识，使用 <strong>hashMap</strong> 和 <strong>localStorage</strong> 存储网站数据
+                    </p>
+                </li>
+                <li>
+                    <header>
+                        <h3>原生UI组件库</h3>
+                        <span><a href="https://gitee.com/xiaoxue0423/easyui/blob/master/tooltip.html" target="_blank">源码</a></span>
+                        <a href="http://xiaoxue0423.gitee.io/easyui/tooltip.html" target="_blank">演示</a>
+                    </header>
+                    <p>
+                        原生JS实现<strong>简易ElementUI组件</strong>
+                    </p>
+                </li>
+                <li>
+                    <header>
+                        <h3>简易画板</h3>
+                        <span>
+                            <a href="https://gitee.com/xiaoxue0423/canvas-demo1/blob/master/index.html" target="_blank">源码</a>
+                        <a href="http://xiaoxue0423.gitee.io/canvas-demo1" target="_blank">演示</a>
+                        </span>
+                    </header>
+                    <p>我在学习 <strong>Canvas</strong> 时做的一个画板。</p>
+                    <p>模仿windows画板，实现的<strong>按下鼠标画连续平滑线</strong>的功能</p>
+                </li>
+                <li>
+                    <header>
+                        <h3>雪的个人博客</h3>
+                        <span><a href="https://gitee.com/xiaoxue0423/myhometown/blob/master/index.html" target="_blank">源码</a></span>
+                        <a href="http://xiaoxue0423.gitee.io/myhometown" target="_blank">演示</a>
+                    </header>
+                    <p>
+                        这是学校必修课“前端开发设计” 课程作业 “介绍自己”，并获得“优秀”等级 ，也是通过这个项目激发了我对前端开发的浓厚兴趣
+                        <br> 基于HTML5、CSS3、<strong>jQuery</strong>、<strong>Bootstrap</strong>框架搭建起来
+                        <br> <strong>轮播图</strong>悬浮鼠标，图片<strong>放大</strong>、<strong>上下翻转</strong>、<strong>前后翻转</strong>、动态的jQuery“技能树”等特效
+                        <br><strong>video</strong>标签实现地自动播放视频效果。
+                        <br>网站一打开就会有聆听动人的背景音乐(embed)，极具吸引力，网页配色也很温馨舒适。
+                    </p>
+                </li>
+            </ol>
+        </section>
+
+        <section class="openSource">
+            <h2>
+                开源项目
+                <hr/>
+            </h2>
+            <ul>
+                <li>
+                    <header>
+                        <h3>会动的皮卡丘</h3>
+                        <span>
+                <a href="https://github.com/xiaoxue423/Pikachu" target="_blank">源码</a>
+                <a href="https://xiaoxue423.github.io/Pikachu/src/test.html" target="_blank">演示</a>
+              </span>
+                    </header>
+                    <p>这是我在学习 <strong>CSS3和动画</strong> 时制作的一个可爱作品<br/>动态的演示代码，最终画出一个简易的卡通人物“皮卡丘”</p>
+                </li>
+                <li>
+                    <header>
+                        <h3>自己写的 DOM 库</h3>
+                        <span><a href="https://gitee.com/xiaoxue0423/dom-1/blob/master/src/dom.js" target="_blank">源码</a></span>
+                    </header>
+                    <p>
+                        实现了元素选择、元素创建、<strong>事件委托</strong>等常见功能
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="education">
+            <h2 style="color:black">
+                教育经历
+                <hr/>
+            </h2>
+            <p class="edu">
+                <span><time>2017年</time>~<time>2021年</time></span> 
+                <span>郑州航空工业管理学院</span>
+                <span>智能工程学院</span>  
+                <span>计算机科学与技术专业</span>
+                <span><strong>本科</strong></span>
+            </p>
+            <p><strong>GPA(成绩绩点)：3.4/4.0</strong></p>
+            <p>相关课程：数据结构、算法分析与设计、计算机网络原理、操作系统原理、数据库原理、<strong>前端开发技术</strong>、C语言、Java程序设计、Linux应用等课程</p>
+        </section>
+        <p class="page2"></p>
+        <section class="award">
+            <h2 style="color:black">
+                荣誉奖项
+                <hr/>
+            </h2>
+            <p>
+                <strong>英语四级证书</strong>（2018.12）
+            </p>
+            <p>在2018-2019被评为郑州航院“<strong>三好学生</strong>”（2019.12）</p>
+            <p>在2018-2019荣获郑州航院 <strong> “三等”学业奖学金</strong>（2019.11）</p>
+            <p>在学校必修课程“前端开发技术”中获得<strong>“优秀”</strong>等级</p>
+            <p>
+                郑州航院智能工程学院第十六届“挑战杯”全国大学生课外学术科技作品竞赛中，荣获<strong>三等奖</strong>（2019.4）
+            </p>
+            <p>
+                郑州航院智能工程学院第十六届“挑战杯”全国大学生课外学术科技作品竞赛中，荣获<strong>二等奖</strong>（2019.4）
+            </p>
+            <p>
+                在2017年度团学活动中，被评为<strong>“优秀共青团员”</strong>（2018.5）
+            </p>
+            <p>在郑州航院计算机学院"诚信校园行"学生资助知识大赛荣获<strong>“一等奖”</strong>（2017.11）</p>
+            <p>在“郑州航院第四届中英文简历大赛”中，荣获“<strong>三等奖</strong>”（2019.12）</p>
+            <p>在2017级学生军事训练中表现出突出，被评为<strong>“军事训练标兵”</strong>（2017.9）</p>
+        </section>
+
+        <section class="others">
+            <h2 style="color:black">
+                其他链接
+                <hr/>
+            </h2>
+            <ul>
+                <li>
+                    <p><a href="https://www.zhihu.com/people/hu-xue-10-28/posts" target="_blank">知乎</a><a href="https://www.yuque.com/xiaoxue0423" target="_blank">语雀</a> &nbsp;记录学习总结200余篇前端知识
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <a href="https://github.com/xiaoxue423" target="_blank">我的 GitHub</a>，
+                        <a href="https://gitee.com/xiaoxue0423" target="_blank">我的 Gitee</a>
+                        <span> 过去几个月共有 200 多 次提交</span>
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+
+    </article>
+    <script src="https://cdn.bootcss.com/echarts/4.6.0/echarts.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    margin: 20px 0;
+}
+
+article {
+    width: 21cm;
+    min-height: 29.7cm;
+    background: white;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 1.5em;
+}
+
+body {}
+
+p {
+    margin: 0.3em 0;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+strong {
+    font-weight: normal;
+    color: #f60;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    padding: 0 3px;
+    margin-left: 8px;
+}
+
+p,
+li {
+    color: #666;
+}
+
+strong {
+    font-weight: normal;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.bio {
+    position: relative;
+}
+
+.bio img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bio>p {
+    text-align: center;
+}
+
+.projects {}
+
+.projects p {
+    color: #666;
+}
+
+.projects strong {
+    color: #f60;
+}
+
+.projects>ol {
+    margin-top: 0;
+    list-style-position: inside;
+    padding: 0;
+}
+
+.projects>ol>li {
+    margin-bottom: 24px;
+}
+
+.projects>ol>li>header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.projects>ol>li h3 {
+    display: inline-block;
+}
+
+.skills {}
+
+#skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 270px;
+}
+
+/* @media print {
+    #skills {
+        display: none;
+    }
+} */
+@media (max-width:500px) {
+    #skills {
+        display: none;
+    }
+}
+
+.skills>.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills>.wrapper> :first-child {
+    margin-right: 24px;
+}
+
+.skills>.wrapper>#skills {}
+
+.skills>.wrapper>ul {
+    color: #666;
+}
+
+.skills>.wrapper strong {
+    color: #f60;
+}
+
+.skills>.wrapper>ul>li {
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.openSource {}
+
+.openSource>h2 {}
+
+.openSource header img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.openSource>ul {}
+
+.openSource>ul>li {
+    margin-bottom: 24px;
+}
+
+.openSource header {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.openSource h3 {}
+
+.jobs {}
+
+.jobs>h2 {}
+
+.jobs>ol {}
+
+.jobs>ol>li {
+    margin: 12px 0;
+}
+
+.jobs header {
+    display: flex;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.jobs header>h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.jobs header>h4 {
+    margin-left: 1em;
+    font-size: 18px;
+}
+
+.jobs header>span {
+    font-size: 18px;
+    margin-left: auto;
+}
+
+
+/*.research > ul > li {*/
+
+
+/*  margin: 12px 0;*/
+
+
+/*}*/
+
+@media (max-width: 500px) {
+    body {
+        margin: 0;
+    }
+    article {
+        width: auto;
+        height: auto;
+    }
+    .bio img {
+        display: none;
+    }
+    .skills .wrapper {
+        flex-direction: column;
+    }
+    #skills {
+        width: auto;
+    }
+    .jobs header {
+        flex-direction: column;
+    }
+    .jobs header>h3,
+    .jobs header>h4,
+    .jobs header>span {
+        margin: 0;
+    }
+}
+
+hr {
+    margin: 0;
+}
+.projects .job {
+    display: flex;
+    justify-content: space-between;
+}
+.education .edu {
+    display: flex;
+    justify-content: space-between;
+}
