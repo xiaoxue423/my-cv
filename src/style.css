@@ -260,7 +260,23 @@ hr {
     display: flex;
     justify-content: space-between;
 }
+@media (max-width:500px){
+    .projects .job {
+        display: flex;
+        /* justify-content: center;  */
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
 .education .edu {
     display: flex;
     justify-content: space-between;
+}
+@media (max-width:500px){
+    .education .edu {
+        display: flex;
+        justify-content: space-between;
+        /* justify-content: center; */
+        flex-wrap: wrap;
+    }
 }
